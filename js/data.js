@@ -1,26 +1,25 @@
 const cards = [
     {
-        name: 'sam day',
-        occupation: 'creative director & designer',
+        name: 'Drake',
+        occupation: 'Rapper and producer',
         from: '',
-        image: 'https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/615b54ee54045a4769f04eba_sofia-papadopoulou.jpg',
         image: 'https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/6172987a792f18104ce0ce14_sam-day.jpg',
         about: [
             '“Blurring the line between design & dev,',
-            'Niccolo has an unmatched eye for detail and',
+            'Prem has an unmatched eye for detail and',
             'precise execution in his work which pushes',
-            'the whole industry forward”',
+            'every one to focus and move forward”',
         ]
     },
     {
-        name: 'SOFIA PAPADOPOULOU',
-        occupation: 'Designer & Art Director',
+        name: 'neha kakkar',
+        occupation: 'Singer',
         from: '',
         image: 'https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/615b54ee54045a4769f04eba_sofia-papadopoulou.jpg',
         about: [
-            '"Niccolò‘s eye for detail & design as well as ',
+            '"Prem‘s eye for detail & design as well as ',
             'his impeccable aesthetics, make him one of ',
-            'the leaders in today’s digital design scene"',
+            'the best person in today’s digital scene"',
             '',
         ]
     },
