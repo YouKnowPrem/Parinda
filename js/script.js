@@ -80,19 +80,19 @@ function cardCreator() {
 
 
     function wrapLettersInSpan(name) {
-        let newName = Mr. / Ms. ;
-        for (let i = 0; i < name.length; i++) {
-            if (name[i].toLowerCase() === 'o' || name[i].toLowerCase() === 'g' || name[i].toLowerCase() === 'c') {
-                const span = document.createElement('span');
-                span.textContent = name[i];
-                newName += span.outerHTML;
-            } else {
-                newName += name[i];
-            }
+    let newName = ''; // Initialize as an empty string
+    for (let i = 0; i < name.length; i++) {
+        if (name[i].toLowerCase() === 'o' || name[i].toLowerCase() === 'g' || name[i].toLowerCase() === 'c') {
+            const span = document.createElement('span');
+            span.textContent = name[i];
+            newName += span.outerHTML;
+        } else {
+            newName += name[i];
         }
-
-        return newName;
     }
+    return newName;
+ }
+
 }
 
 function cardAnimation() {
