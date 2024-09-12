@@ -26,7 +26,7 @@ const cards = [
         name: 'Donald Trump',
         occupation: '45th U.S. President',
         from: 'United States',
-        image: 'https://github.com/YouKnowPrem/Parinda/blob/c14b4a0f9709dec0c5414c716fa849b63fbf8ad0/images/Donald%20Trump.jpg',
+        image: 'images/DonaldT.jpg',
         about: [
             '"High-skilled person who creates nobel ',
             'experiences with ease and craft. His ',
